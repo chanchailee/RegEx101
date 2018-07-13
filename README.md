@@ -14,8 +14,13 @@
 
 
 ## RegEx Guide:
-  RegEx in PHP should start with / and end with /
-    Ex: /A/, /\d/, /(pattern1|pattern2)/
+    RegEx in PHP should start with "/" and end with "/"
+
+      Ex: /A/,
+          /\d/,
+          /(pattern1|pattern2)/,
+          /([a-z]|[A-Z])/,
+          /([0-9])/
 
 
 ## Examples Pattern:
