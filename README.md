@@ -4,13 +4,16 @@
   php regexCS.php
 
 ## References:
-  https://regex101.com
-  https://www.youtube.com/watch?v=In5NBIRfMrQ
-  https://www.youtube.com/watch?v=sa-TUpSx1JA&t
-  https://www.youtube.com/watch?v=wnu4febXKx0
+    https://regex101.com
+
+    https://www.youtube.com/watch?v=In5NBIRfMrQ
+
+    https://www.youtube.com/watch?v=sa-TUpSx1JA&t
+
+    https://www.youtube.com/watch?v=wnu4febXKx0
 
 ## cheatsheet pdf url:
-  http://clevertechie.com/files/regex-cheat-sheet.png
+    http://clevertechie.com/files/regex-cheat-sheet.png
 
 
 ## RegEx Guide:
