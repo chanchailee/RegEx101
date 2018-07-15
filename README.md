@@ -34,13 +34,13 @@ https://chanchailee.github.io/RegularExpression101
     /\w{1}/
       Matches Exactly 1 word (or character)
     /\w{3,5}/
-      Matches between 3 digits to 5 digits.
+      Matches between 3 characters to 5 characters.
     /\D/
       Matches NON-digit character
     /\W/
       Matches NON-word character
-    /([a-z|A-Z])/
-      Matches either range from a-z or A-Z
+    /[a-zA-Z]/
+      Matches any characters between a-z or A-Z.
 
 ## Function Explanation:
 

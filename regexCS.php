@@ -17,14 +17,24 @@ $filename = $argv[1];
 
 if($filename == null|| $filename == ""){
 
-    $str = "I am Summer. Everybody called me Summer.";
+    $str = "I am Summer. Everybody called me Summer. Susan is my girlfriend and she lives in Sunnyvale.";
 
-    if(preg_match("/Summer/",$str,$array)){
+    $pattern = "/S\w{1,}\s*/";
+    if(preg_match($pattern,$str,$array)){
       print ("input: ".$str."\n");
       print ("output: ");
       print_r($array);
       print "\n";
     }
+
+    if(preg_match_all($pattern,$str,$array)){
+      print ("input: ".$str."\n");
+      print ("output: ");
+      print_r($array);
+      print "\n";
+    }
+
+
 
     /*With Parentheses (Grouping) */
     if(preg_match("/Su(mm)er/",$str,$array)){
@@ -67,10 +77,11 @@ if($filename == null|| $filename == ""){
     /\d{1}/-> Matched Exactly 1 digit.
     /\d{1,3}/ -> Matched between 1 digit to 3 digits.
     /\w{1}/-> Matched Exactly 1 word (or character)
-    /\w{3,5}/ -> Matched between 3 digits to 5 digits.
+    /\w{3,5}/ -> Matched between 3 characters to 5 characters.
     /\D/ -> Match NON-digit character
     /\W/-> Matched NON-word character
-    /([a-z|A-Z])/ -> Matched either range from a-z or A-Z
+    /[a-zA-Z]/
+      Matches any characters between a-z or A-Z.
 
     Function Explanation:
 
