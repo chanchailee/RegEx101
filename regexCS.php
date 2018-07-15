@@ -26,16 +26,8 @@ if($filename == null|| $filename == ""){
       print "\n";
     }
 
-    /*With Parentheses outside*/
-    if(preg_match("/(Summer)/",$str,$array)){
-      print ("input: ".$str."\n");
-      print ("output: ");
-      print_r($array);
-      print "\n";
-    }
-
-    /*With Parentheses outside and inside*/
-    if(preg_match("/(Su(mm)er)/",$str,$array)){
+    /*With Parentheses (Grouping) */
+    if(preg_match("/Su(mm)er/",$str,$array)){
       print ("input: ".$str."\n");
       print ("output: ");
       print_r($array);
@@ -43,7 +35,14 @@ if($filename == null|| $filename == ""){
     }
 
     /*matchs all word with the same pattern in a string*/
-    if(preg_match_all("/(Summer)/",$str,$array)){
+    if(preg_match_all("/Summer/",$str,$array)){
+      print ("input: ".$str."\n");
+      print ("output: ");
+      print_r($array);
+      print "\n";
+    }
+
+    if(preg_match_all("/S(umme)r/",$str,$array)){
       print ("input: ".$str."\n");
       print ("output: ");
       print_r($array);
@@ -53,7 +52,7 @@ if($filename == null|| $filename == ""){
     /* Replace a particular word with another word*/
     $string2 = preg_replace("/Summer/","Jack",$str);
     print ("input: ".$str."\n");
-    print ("output: ");
+    print ("Replace string output: ");
     echo $string2."\n";
 
 
