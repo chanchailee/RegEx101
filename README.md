@@ -6,6 +6,9 @@ https://github.com/chanchailee/RegularExpression101
 
 https://chanchailee.github.io/RegularExpression101
 
+## Medium Article:
+https://medium.com/@leechanchai/regular-expression-cbb28e76c8b8
+
 ## To run this program:
     Without input file:
     php regexCS.php
@@ -41,6 +44,8 @@ https://chanchailee.github.io/RegularExpression101
       Matches NON-word character
     /[a-zA-Z]/
       Matches any characters between a-z or A-Z.
+    /[a-zA-Z]{3}/
+      Matches 3 consecutive characters between a-z or A-Z.
 
 ## Function Explanation:
 
