@@ -1,8 +1,10 @@
 ## This project is about using a Regular Expression to find word pattern in php.
 
 ## To run this program:
-  php regexCS.php
+    php regexCS.php
 
+  With sample html example :
+    php regexCS.php sample.html
 ## References:
     https://regex101.com
 
