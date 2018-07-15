@@ -4,7 +4,7 @@
     php regexCS.php
 
   With sample html example :
-    php regexCS.php sample.html
+          php regexCS.php sample.html
 ## References:
     https://regex101.com
 
