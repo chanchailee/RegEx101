@@ -1,7 +1,7 @@
 ## This project is about using a Regular Expression to find word pattern in php.
 
 ## GitHub Page URL:
-    [link text itself]: https://chanchailee.github.io/RegularExpression101/
+[link text itself]: https://chanchailee.github.io/RegularExpression101/
 
 ## To run this program:
     php regexCS.php
