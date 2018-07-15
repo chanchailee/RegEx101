@@ -11,18 +11,6 @@ https://chanchailee.github.io/RegularExpression101/
     With sample html example :
     php regexCS.php sample.html
 
-## References:
-    https://regex101.com
-
-    https://www.youtube.com/watch?v=In5NBIRfMrQ
-
-    https://www.youtube.com/watch?v=sa-TUpSx1JA&t
-
-    https://www.youtube.com/watch?v=wnu4febXKx0
-
-## cheatsheet pdf url:
-    http://clevertechie.com/files/regex-cheat-sheet.png
-
 
 ## RegEx Guide:
     RegEx in PHP should start with "/" and end with "/"
@@ -81,3 +69,15 @@ https://chanchailee.github.io/RegularExpression101/
     $replacement =  The replacement word.
 
     $str =  input string.
+
+## References:
+    https://regex101.com
+
+    https://www.youtube.com/watch?v=In5NBIRfMrQ
+
+    https://www.youtube.com/watch?v=sa-TUpSx1JA&t
+
+    https://www.youtube.com/watch?v=wnu4febXKx0
+
+## cheatsheet PNG url:
+    http://clevertechie.com/files/regex-cheat-sheet.png
