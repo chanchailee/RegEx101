@@ -53,7 +53,7 @@ https://chanchailee.github.io/RegularExpression101/
 
 ## Function Explanation:
 
-  preg_match($pattern, $str, $matches, PREG_OFFSET_CAPTURE)
+### preg_match($pattern, $str, $matches, PREG_OFFSET_CAPTURE)
 
     This function is used to find a particular pattern by using regex.
 
@@ -70,7 +70,8 @@ https://chanchailee.github.io/RegularExpression101/
 
     PREG_OFFSET_CAPTURE =  the parameter that triggers preg_match function to store index of character that match with regex pattern inside $matches array.
 
-  preg_replace($pattern, $replacement, $str)
+
+### preg_replace($pattern, $replacement, $str)
 
     This function is used to replace a particular pattern by using regex.
 
