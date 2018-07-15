@@ -6,10 +6,9 @@ https://chanchailee.github.io/RegularExpression101/
 
 ## To run this program:
     php regexCS.php
+    ### With sample html example :
+        php regexCS.php sample.html
 
-  With sample html example :
-
-    php regexCS.php sample.html
 ## References:
     https://regex101.com
 
