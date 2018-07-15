@@ -1,4 +1,4 @@
-## This project is about using a Regular Expression to find word pattern in php.
+## This project is about using a Regular Expression to find word pattern in PHP.
 
 ## GitHub Page URL:
 
