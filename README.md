@@ -80,5 +80,6 @@ https://chanchailee.github.io/RegularExpression101/
     https://www.youtube.com/watch?v=wnu4febXKx0
 
 ## cheatsheet PNG url:
-    http://clevertechie.com/files/regex-cheat-sheet.png  
+http://clevertechie.com/files/regex-cheat-sheet.png  
+
 ![alt text](http://clevertechie.com/files/regex-cheat-sheet.png)
