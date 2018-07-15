@@ -1,8 +1,8 @@
 ## This project is about using a Regular Expression to find word pattern in PHP.
 
 ## GitHub Page URL:
-
-https://chanchailee.github.io/RegularExpression101/
+https://github.com/chanchailee/RegularExpression101
+https://chanchailee.github.io/RegularExpression101
 
 ## To run this program:
     Without input file:
@@ -69,6 +69,27 @@ https://chanchailee.github.io/RegularExpression101/
     $replacement =  The replacement word.
 
     $str =  input string.
+
+## Examples:
+    $str = "I am Summer. Everybody called me Summer.";
+
+    if(preg_match("/Summer/",$str,$array)){
+      print ("input: ".$str."\n");
+      print ("output: ");
+      print_r($array);
+      print "\n";
+    }
+
+    It will find any word that matches with a given pattern("/Summer/") $str.
+
+    if(preg_match("/Su(mm)er/",$str,$array)){
+      print ("input: ".$str."\n");
+      print ("output: ");
+      print_r($array);
+      print "\n";
+    }
+
+    It will find any word that matches with a given pattern("/Su(mm)er/") $str. Also, it will find a group of word inside parentheses (mm) and store in and $array object.
 
 ## References:
     https://regex101.com
